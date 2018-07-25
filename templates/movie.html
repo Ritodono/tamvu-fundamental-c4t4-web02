@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    {% for movie in movies %}
+        <h1>{{movie titles}}</h1>
+        <h2>{{movie.casts}}</h2>
+        <img 
+            src="https://www.google.com.vn/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjM8qqSpLDcAhVMFYgKHcxsBWQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDKbkKJWYT6E&psig=AOvVaw28qH96_kaxYC06KPCaf72a&ust=1532265536574816" alt="">
+        <a href="https://www.google.com.vn/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjM8qqSpLDcAhVMFYgKHcxsBWQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDKbkKJWYT6E&psig=AOvVaw28qH96_kaxYC06KPCaf72a&ust=1532265536574816"></a>
+    {% endfor %}
+
+    </body>
+
+</html>
